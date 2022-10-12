@@ -21,4 +21,6 @@ body {
   img {
     color:darkred;
     font-family: Papyrus;
+    width: 450px;
+    height: 600px;
   }
