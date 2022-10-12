@@ -4,7 +4,7 @@ body {
   
   h1 {
     color: darkred;
-    margin-left: 20px;
+    text-align: center;
     font-family: Papyrus;
   }
  
@@ -25,10 +25,10 @@ body {
     height: 600px;
   }
 
-.API {
-  color:darkred;
-  font-family: Papyrus;
-  width: 600px;
-  height: 550px;
+  .API {
+    color:darkred;
+    font-family: Papyrus;
+    width: 600px;
+    height: 550px;
   }
 
