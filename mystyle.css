@@ -29,12 +29,13 @@ body {
     color:darkred;
     font-family: Papyrus;
     width: 600px;
-    height: 550px;
+    height: 600px;
   }
   
   .bottomlink {
-    padding-left: 100px;
-    padding-top: 100px;
+    padding-left: 200px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif;;
   }
 
     ul#navbartext {
