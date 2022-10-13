@@ -6,6 +6,8 @@ body {
     color: darkred;
     text-align: center;
     font-family: Papyrus;
+    font-size: 32px;
+    margin-block-start: auto;  
   }
  
   p {
