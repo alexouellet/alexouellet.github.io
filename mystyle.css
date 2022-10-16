@@ -1,13 +1,15 @@
-
+/* Assigns a light-blue background colour. Format from https://www.w3schools.com/css/css_selectors.asp */
 body {
     background-color: lightblue;
   }
-
+/* Sizes text to 20 pixels, centers the text within the nav bar, changes nav bar font to times new roman. 
+/* Format of id selector from https://www.w3schools.com/css/css_selectors.asp */
   ul#navbartext {
     font-size: 20px;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
+/* Adds margin around text and creates a white nav bar with a black border.*/ 
 
     ul {
     list-style-type: none;
