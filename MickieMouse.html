@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Language declared as english -->
 <html lang = "en">
 <head>
     <!-- External CSS document referenced. Format used from 'https://www.w3schools.com/html/html_css.asp' -->
@@ -7,13 +8,18 @@
 </head>
 <body>
 <header>
+    <!-- Displays a navigation bar in the top left corner of the screen to link the user to the home page (index.html) -->
+    <!-- The navigation bar is assigned to the ID selector 'navbartext' which will be referneced in the external CSS document-->
+    <!-- The navbar link will display 'Back to the Main Page!' -->
      <ul ID = "navbartext">
         <li><a href="index.html">Back to the Main Page!</a></li>
     </ul>
 </header>
  
 <h1>A Day of My Life in Pictures!</h1>  
-    
+ <!-- The google API images are assigned to the class selector 'API' which will be referneced in the external CSS document-->
+ <!-- A relative url is used (only ".jpg") since it is a local image-->
+ <!-- Format used from 'https://www.w3schools.com/html/html_images.asp'-->   
 <img class = "images" src="sky.jpg" alt="Sky">
 <img class = "images" src="gas_station.jpg" alt="gas station">
 <img class = "images" src="dog_chair.jpg" alt="Dog sleeping in chair">
