@@ -10,7 +10,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
   }
 /* Adds margin around text and creates a white nav bar with a black border.*/ 
-
+/* Idea from https://www.w3schools.com/css/css_navbar.asp*/
     ul {
     list-style-type: none;
     margin: 60px;
@@ -21,6 +21,7 @@ body {
     width: 15%;
   }
 /* 3 declarations set*/ 
+/* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   h1 {
     color: darkred;
     text-align: center;
@@ -30,19 +31,21 @@ body {
   }
  
 /* enough padding to space it out from the API images on the first page, and the regular images from the second page*/ 
+/* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   p {
     color:black;
     font-family: Monaco, serif;
     font-size: 20px;
     padding: 60px;
-    clear: both;
+    clear: both; 
   }
 /* assigns the colour darkred and the font times new roman to the link font */ 
+/* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   a {
     color:darkred;
     font-family: 'Times New Roman', Times, serif;
   }
-
+/* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   .images {
     color:darkred; /* sets images alt text colour to dark red*/ 
     font-family: Papyrus; /* sets image alt text font to papyrus*/ 
@@ -50,14 +53,14 @@ body {
     height: 600px;
     float:left; /* allows the images to be formatted side by side rather than stacked vertically*/ 
   }
-
+/* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   .API {
     color:darkred; /* sets API images alt text colour to dark red*/ 
     font-family: Papyrus; /* sets API images alt text font to papyrus*/ 
     width: 600px;
     height: 600px;
   }
-  
+  /* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   .bottomlink { /* adds padding to allow links to be seperated from the paragraph.*/ 
     padding-left: 200px;
     margin-top: 50px;
