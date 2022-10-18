@@ -44,6 +44,7 @@ body {
   a {
     color:darkred;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: none; /* removes underline */
   }
 /* Format of class selector from https://www.w3schools.com/css/css_selectors.asp */
   .images {
