@@ -20,7 +20,7 @@ body {
     background-color: white;
     width: 15%;
   }
-/* default declarations for h1 was overriden.*/ 
+/* 3 declarations set*/ 
   h1 {
     color: darkred;
     text-align: center;
@@ -29,36 +29,37 @@ body {
     margin-block-start: 0.669em;  /* default declaration for h1 was overriden.*/ 
   }
  
+/* enough padding to space it out from the API images on the first page, and the regular images from the second page*/ 
   p {
     color:black;
-    font-family: Garamond, serif;
+    font-family: Monaco, serif;
     font-size: 20px;
     padding: 60px;
     clear: both;
   }
-
+/* assigns the colour darkred and the font times new roman to the link font */ 
   a {
     color:darkred;
     font-family: 'Times New Roman', Times, serif;
   }
 
   .images {
-    color:darkred;
-    font-family: Papyrus;
+    color:darkred; /* sets images alt text colour to dark red*/ 
+    font-family: Papyrus; /* sets image alt text font to papyrus*/ 
     width: 450px;
     height: 600px;
-    float:left;
+    float:left; /* allows the images to be formatted side by side rather than stacked vertically*/ 
   }
 
   .API {
-    color:darkred;
-    font-family: Papyrus;
+    color:darkred; /* sets API images alt text colour to dark red*/ 
+    font-family: Papyrus; /* sets API images alt text font to papyrus*/ 
     width: 600px;
     height: 600px;
   }
   
-  .bottomlink {
+  .bottomlink { /* adds padding to allow links to be seperated from the paragraph.*/ 
     padding-left: 200px;
     margin-top: 50px;
-    font-family: 'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif; /* sets font to times new roman*/ 
   }
